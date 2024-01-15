@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/***********************************************
+Navbar 
+***********************************************/
+
+.navbar {
+    font-family: math;
+}
+
+.nav_bg {
+    background: #f70505ef;
+}
+
+.logo {
+    width: 50px;
+    height: 45px;
+}
+
+.nav-link {
+    color: rgb(239, 241, 239) !important;
+}
+
+.nav-link:hover {
+    color: rgb(0, 255, 55) !important;
+}
+
+.nav-link:active {
+    color: rgb(0, 0, 255) !important;
+}
+
+
+/***********************************************
+Slider
+***********************************************/
+
+.slider {
+    height: 100vh;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0 0 0 / 51%)), url('../photo/noemi-macavei-katocz-C9aFEZ7DjdI-unsplash.jpg') center center no-repeat;
+}
+
+.slider_p {
+    padding-top: 18vh;
+    color: rgb(80 230 108 / 76%);
+}
+
+.slider_p2 {
+    color: rgb(213 232 119 / 72%);
+}
+
+.slider_p3 {
+    color: rgb(96 230 80 / 92%);
+}
+
+/******************************************************
+Contact Us
+*******************************************************/
+
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url(../photo/contact.jpg) no-repeat center center/cover;
+}
+
+.form_bg {
+    background-color: rgb(137 133 186 / 25%);
+}
+
+textarea {
+    resize: none;
+}
+
+/**********************************************************************
+Responsing
+**********************************************************************/
+
+@media(max-width:710px) {
+    .faciliy_item {
+        font-size: 10px !important;
+    }
+
+}
+
+;
+
+@media(max-width:576px) {
+    .faciliy_item {
+        width: 100%;
+    }
+
+}
+
+;
+
+@media(max-width:350px) {
+    .slider_p {
+        padding-top: 10vh;
+    }
+}
+
+;
